@@ -1,3 +1,4 @@
+import os
 """
 Название программы: Телеграм-бот для управления парсерами через ЦУП
 Описание: Управление запуском и контроль сети парсеров
@@ -19,7 +20,7 @@ from control_center.control_management_center import finish_parsing_cmc, \
 
 # FIXME =========================================================== SETTINGS ===
 # Токен бота
-TOKEN = "6211247463:AAGn70Gdi8Mh5uibC3js79ERjIAC032oRzU"
+TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
 # Словарь статусов парсеров
 parsers_status_dict = {

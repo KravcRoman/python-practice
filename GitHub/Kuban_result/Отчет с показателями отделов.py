@@ -1,8 +1,9 @@
+import os
 import psycopg2
 
 try:
     # Подключение к БД
-    connection = psycopg2.connect(dbname="app", host="81.90.180.198", user="app", password="pH7sJ5tJ7omT7b", port="5432")
+    connection = psycopg2.connect(dbname="app", host=os.environ["DATABASE_HOST"], user="app", password=os.environ["DATABASE_PASSWORD"], port="5432")
 
     # Получаем данные по конкретной стадии из БД
     with connection.cursor() as cursor:

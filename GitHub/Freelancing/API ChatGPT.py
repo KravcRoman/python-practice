@@ -1,8 +1,9 @@
+import os
 import openai
 import requests
 
 # Устанавливаем ключ API GPT-3
-openai.api_key = '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'
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 def fetch_content(url):
     """

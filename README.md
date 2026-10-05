@@ -1,70 +1,24 @@
-# Hi there! 👋 My name is Roman Kravchenko
+# Python practice
 
-🚀 **Python Backend Developer** with 4+ years of experience in **Backend Development**, **Data Parsing**, **Data Engineering**, and **Data Analysis**.
+Early projects, freelance tasks and test assignments. Kept as an archive: this is how I learned, not how I write today.
 
----
+Current work is commercial and under NDA. For recent code see [tg-claude-bridge](https://github.com/KravcRoman/tg-claude-bridge), a Telegram bridge for Claude Code sessions.
 
-## 💡 About Me
+## About me
 
-I'm passionate about building efficient backend systems, data pipelines, and automation tools. I’ve worked on freelance, commercial, and internal enterprise projects — from writing parsers and REST APIs to setting up CI/CD pipelines and container orchestration.
+Roman Kravchenko, Python backend developer, 5+ years: REST APIs, data pipelines, browser automation, integrations, deployment.
 
----
+Telegram: [@kravcroman](https://t.me/kravcroman)
 
-## 🧰 Tech Stack
+## What is inside `GitHub/`
 
-### 🛠 Backend & API
-- **FastAPI**, **Django**, **Flask**
-- REST API design & development
-- Alembic for DB migrations
+| Folder | Contents |
+|---|---|
+| `Parsers` | Site parsers, one folder per site |
+| `Django` | Small Django sites |
+| `TG_bots` | Telegram bots |
+| `Freelancing` | Freelance and practice tasks with their descriptions |
+| `Kuban_result` | Scripts from my first job |
+| `Arcanegaming`, `Fix`, `Mango`, `MosRu`, `Nielsen`, `Sber`, `Sirius`, `SovcomBank`, `VK` | Test assignments from companies |
 
-### 🔍 Parsing & Automation
-- `BeautifulSoup`, `Scrapy`, `Selenium`, `requests`, `aiohttp`, `lxml`
-
-### 🗃 Databases
-- `PostgreSQL`, `SQLite`, DWH
-- Schema design and query optimization
-- ORM: `SQLAlchemy`
-
-### ⚙️ Data Engineering
-- ETL pipelines, orchestration with `Airflow`, `Argo`
-
-### 📊 Data Analysis & Visualization
-- `Pandas`, `NumPy`, `Matplotlib`
-
-### 🧪 Testing & Debugging
-- Manual testing, debugging, and bug fixing  
-- Writing unit tests using **pytest**
-
-### 🐳 DevOps & CI/CD
-- `Docker`, `Docker Compose`, `Kubernetes`
-- Deployment with GitHub Actions
-
-### 💻 Development Process
-- Git, GitHub, Code review
-- Agile / Scrum / Kanban
-
----
-
-## 📫 Contact Me
-
-- 🌍 I'm based in **Rostov-on-Don, Russia**
-- ✉️ Telegram: [@kravcroman](https://t.me/kravcroman)
-- 🤝 Open to collaborating on challenging backend projects
-- ⚠️ Most of my production code is under NDA and cannot be shared publicly
-
----
-
-## 📁 Project Structure
-
-- 📂 [Freelancing](https://github.com/KravcRoman/Projects/tree/main/GitHub/Freelancing) – фриланс и тестовые задачи (есть ТЗ).
-- 📂 [Parsers](https://github.com/KravcRoman/Projects/tree/main/GitHub/Parsers) – парсеры сайтов (папки названы по сайтам).
-- 📂 [TG_bots](https://github.com/KravcRoman/Projects/tree/main/GitHub/TG_bots) – Telegram-боты.
-- 📂 [Django](https://github.com/KravcRoman/Projects/tree/main/GitHub/Django) – сайты на Django.
-- 📂 [Kuban_result](https://github.com/KravcRoman/Projects/tree/main/GitHub/Kuban_result) – проекты с первой работы.
-- 📂 [Arcanegaming](https://github.com/KravcRoman/Projects/tree/main/GitHub/Arcanegaming)
-/ [Sber](https://github.com/KravcRoman/Projects/tree/main/GitHub/Sber)
-/ [VK](https://github.com/KravcRoman/Projects/tree/main/GitHub/VK) и др. – тестовые задания от компаний.
-
----
-
-> "Code is like humor. When you have to explain it, it’s bad." — Cory House
+Keys and tokens are read from environment variables.
